@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "../Header";
+import Footer from "../Footer";
 import data from "../../data.json";
 
 class Game extends Component {
@@ -8,6 +9,7 @@ class Game extends Component {
         return (
             <div>
                 <Header />
+                <Footer />
             </div>
         );
     }
