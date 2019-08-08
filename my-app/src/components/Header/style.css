@@ -1,16 +1,38 @@
 .header {
     background-color: #2C323C;
-    background-image: url("/assets/images/geometry.svg");
-    background-repeat: repeat;
+    background-image: url("/assets/images/characters.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
     color: white;
     min-height: 400px;
-    padding: 180px 20px; 
-    padding-bottom: 140px;
+    padding: 20px 20px; 
+    padding-bottom: 20px;
     text-align: center;
   }
   
   .header h1 {
     margin: 0;
-    margin-bottom: 30px;
-    font-size: 4rem;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 5em;
   }
+
+  .header h2 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+
+  @font-face {
+    font-family: "GOT";
+    src: url("/assets/styles/GameofThrones.ttf");
+  }
+  
+  div {
+    font-family: "GOT";
+    text-shadow: 2px 2px 2px rgb(247, 190, 5), 0 0 1em rgb(24, 17, 2), 0 0 0.2em rgb(241, 29, 10);
+  }
+
+  
